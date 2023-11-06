@@ -176,10 +176,12 @@ sequence:
       kind: project
       activity: repository
       points_possible: 80
+      activity: presentation
     - name: Full-Stack Portfolio Presentation
       pursuit_path: full-stack-portfolio
       kind: project
       points_possible: 20
+      activity: presentation
     - name: End of Module Reflection
       elements:
         - kind: deck
