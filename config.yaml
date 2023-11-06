@@ -155,7 +155,7 @@ sequence:
       activity: repository
       points_possible: 80
     - name: Single Resource Pair Project Teamwork
-      pursuit_path: single-resource-teamwork
+      pursuit_path: single-resource
       kind: project
       points_possible: 20
   One-to-many:
@@ -177,7 +177,7 @@ sequence:
       activity: repository
       points_possible: 80
     - name: Full-Stack Portfolio Presentation
-      pursuit_path: full-stack-portfolio-presentation
+      pursuit_path: full-stack-portfolio
       kind: project
       points_possible: 20
     - name: End of Module Reflection
