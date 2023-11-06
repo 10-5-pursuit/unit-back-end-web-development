@@ -1,0 +1,186 @@
+details:
+  name: Back-end Web Development
+  repository_name: unit-back-end-web-development
+
+sequence:
+  Command Line:
+    - name: Unit 3 Launch
+      elements:
+        - kind: deck
+        - kind: recording
+    - name: Collaborative Programming
+      pursuit_path: collaborative-programming
+      kind: lesson
+      activity: repository
+    - name: Node Projects and Organization
+      pursuit_path: node-projects-and-organization
+      kind: lesson
+      activity: repository
+    - name: NPM Packages
+      pursuit_path: npm-packages
+      kind: lesson
+      activity: repository
+    - name: Test with Jest
+      pursuit_path: test-with-jest
+      kind: lesson
+      activity: repository
+    - name: JSON and Persisting Data
+      pursuit_path: json-and-persisting-data
+      kind: lesson
+      activity: repository
+    - name: Command-line CRUD Application
+      pursuit_path: command-line-crud-application
+      kind: lesson
+      activity: repository
+    - name: Error Handling
+      pursuit_path: error-handling
+      kind: lesson
+      activity: repository
+    - name: Command Line Inventory Application
+      pursuit_path: command-line-inventory-app
+      kind: project
+      activity: repository
+      points_possible: 100
+  Servers:
+    - name: Install PostgreSQL
+      elements:
+        - kind: guide
+          pursuit_path: computer-setup
+          pursuit_subpath: postgresql
+        - kind: recording
+    - name: Intro to the Internet and Servers
+      pursuit_path: intro-to-internet-and-servers
+      kind: lesson
+      activity: canvas_text
+      activity_description: |
+        <h2>Watch the Following Videos</h2>
+        <p>Watch the following videos. Then, write a paragraph or two that answers the questions below the video.</p>
+        <ol>
+          <li><a href='https://www.khanacademy.org/computing/ap-computer-science-principles/the-internet/introducing-the-internet/v/what-is-the-internet?modal=1'>What is the Internet? </a></li>
+          <li><a href='https://www.youtube.com/watch?v=7_LPdttKXPc'>How the Internet Works in 5 Minutes </a></li>
+        </ol>
+        <ul>
+          <li>What is the internet made up of?</li>
+          <li>Why is the internet useful?</li>
+          <li>Is the laptop you are using a server? Why or why not?</li>
+          <li>What is the difference between a client and a server?</li>
+          <li>What is the purpose of a database?</li>
+          <li>What components of an HTTP request are required? Which are optional?</li>
+          <li>What components of an HTTP response are required? Which are optional?</li>
+        </ul>
+        <p>Do not spend more than 30 - 45 minutes on this Lab.</p>
+    - name: Introduction to Express Response
+      pursuit_path: intro-to-express-response
+      kind: lesson
+      activity: repository
+    - name: Introduction to Express Request
+      pursuit_path: intro-to-express-request
+      kind: lesson
+      activity: repository
+    - name: Express CRUD/MVC
+      pursuit_path: express-rest-crud-mvc-index
+      kind: lesson
+      activity: repository
+    - name: Express Middleware & RESTful Routes - Show & Create
+      pursuit_path: express-rest-show-create
+      kind: lesson
+      activity: repository
+    - name: Express Middleware & RESTful Routes - Delete & Update
+      pursuit_path: express-rest-delete-update
+      kind: lesson
+      activity: ~ # continue previous lab
+    - name: Connect Express & Front-end Framework - CORS & Index
+      pursuit_path: express-connect-react
+      kind: lesson
+      activity: repository
+      starter: express-connect-react
+    - name: Connect Express & Front-end Framework - Show, Delete, & Update
+      pursuit_path: express-connect-react
+      kind: lesson
+      activity: ~ # continue previous lab
+    - name: Server Deployment
+      elements:
+        - kind: guide
+          pursuit_path: deployment
+          pursuit_subpath: render-express-postgres
+        - kind: recording
+    - name: Budgeting App
+      pursuit_path: budgeting-app
+      kind: project
+      activity: repository
+      points_possible: 100
+  Full-stack Development:
+    - name: Intro to Databases & SQL
+      pursuit_path: intro-to-sql
+      kind: lesson
+      activity: repository
+    - name: App Planning ERDs
+      pursuit_path: app-planning-erds
+      kind: lesson
+      activity: repository
+    - name: SQL Joins
+      pursuit_path: intro-to-sql-joins
+      kind: lesson
+      activity: repository
+    - name: Express & SQL - Seed & Read
+      pursuit_path: express-sql-seed-read
+      kind: lesson
+      activity: repository
+    - name: Express & SQL - Create & Show
+      pursuit_path: express-sql-create-show
+      kind: lesson
+      activity: ~ # continue previous lab
+    - name: Express & SQL - Delete & Update
+      pursuit_path: express-sql-delete-update
+      kind: lesson
+      activity: ~ # continue previous lab
+    - name: PERN Stack
+      pursuit_path: pern-crud
+      kind: lesson
+      ########### NEEDS ATTENTION ############
+      # Students should submit their backend as a lab
+      #  The next thing they will do is the front-end
+      # They should submit the front-end as a separate lab
+      # Finally, they should submit their attempt at one to many as a third lab
+      # The challenge is that the pursuit path changes for lesson to lesson
+      # But the pursuit path should stay the same for the lab(s)
+      # Right now, when there is a two day lab but one submission I just mark the activity as null
+      # But in this case there are repeated submissions on the same repo
+      #######################################
+      starter: pern-crud
+      activity: ~ # continue previous lab
+    - name: Single Resource Pair
+      pursuit_path: single-resource
+      kind: project
+      activity: repository
+      points_possible: 80
+    - name: Single Resource Pair Project Teamwork
+      pursuit_path: single-resource-teamwork
+      kind: project
+      points_possible: 20
+  One-to-many:
+    - name: PERN Stack - One to Many Back-End
+      pursuit_path: pern-one-to-many-back-end
+      kind: lesson
+      activity: ~ # continue previous lab
+    - name: PERN Stack - One to Many Front-End
+      pursuit_path: pern-one-to-many-front-end
+      kind: lesson
+      activity: ~ # continue previous lab
+    - name: PERN BONUS Topic
+      pursuit_path: pern-many-to-many
+      kind: lesson
+      activity: ~ # Continue last lab
+    - name: Full-Stack Portfolio
+      pursuit_path: full-stack-portfolio
+      kind: project
+      activity: repository
+      points_possible: 80
+    - name: Full-Stack Portfolio Presentation
+      pursuit_path: full-stack-portfolio-presentation
+      kind: project
+      points_possible: 20
+    - name: End of Module Reflection
+      elements:
+        - kind: deck
+        - kind: recording
