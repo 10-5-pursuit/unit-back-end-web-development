@@ -157,6 +157,7 @@ sequence:
     - name: Single Resource Pair Project Teamwork
       pursuit_path: single-resource
       kind: project
+      activity: presentation
       points_possible: 20
   One-to-many:
     - name: PERN Stack - One to Many Back-End
@@ -176,7 +177,6 @@ sequence:
       kind: project
       activity: repository
       points_possible: 80
-      activity: presentation
     - name: Full-Stack Portfolio Presentation
       pursuit_path: full-stack-portfolio
       kind: project
