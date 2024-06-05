@@ -99,7 +99,7 @@ Then, in your test file, you will need to import that function.
 
 ```javascript
 // __tests__/calculator.test.js
-const { sum } = require("./src/calculator");
+const { sum } = require("../src/calculator");
 ```
 
 Once the functions you wish to test are accessible in your test file, you are ready to test those functions.
