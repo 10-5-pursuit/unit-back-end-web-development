@@ -182,7 +182,7 @@ Start by writing a function that reads the data.
 ```js
 // helpers.js
 function readJSONFile(path, fileName) {
-  return readFileSync(`./${path}/${fileName}`, "utf8");
+  return readFileSync(`${path}/${fileName}`, "utf8");
 }
 ```
 
