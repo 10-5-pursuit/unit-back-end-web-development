@@ -2,11 +2,7 @@
 
 So far, you've been making simple `requests` and getting simple responses.
 
-Let's look at a weather site:
-
-[Dark Sky](https://darksky.net/forecast/40.7127,-74.0059/us12/en)
-
-![](./assets/dark-sky.png)
+Let's look at a weather site: Darksky
 
 What you will notice is that the URL is something like:
 
